@@ -5,7 +5,7 @@
 	"license": "MIT",
 	"require": {
 		"php": ">=5.4.0",
-		"symfony/http-foundation": "~2.4|~3.0",
+		"symfony/http-foundation": "6.0.*",
 		"league/event": "~2.1"
 	},
 	"require-dev": {
@@ -15,7 +15,7 @@
 	"repositories": [
 		{
 			"type": "git",
-			"url": "https://github.com/thephpleague/oauth2-server.git"
+			"url": "https://github.com/sleepyboy/oauth2-server.git"
 		}
 	],
 	"keywords": [
@@ -43,8 +43,7 @@
 		}
 	],
 	"replace": {
-		"lncd/oauth2": "*",
-		"league/oauth2server": "*"
+		"league/oauth2-server": "4.1.*"
 	},
 	"autoload": {
 		"psr-4": {
